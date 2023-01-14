@@ -1,0 +1,203 @@
+/* Common Styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.primary-button {
+    border: none;
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.secound-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.secoundary-color {
+    color: #FF900E;
+}
+
+
+
+/* Banner Styles */
+.banner {
+    height: 1450px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.company-name h4 {
+    padding-top: 50PX;
+    padding-left: 230px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-menus ul {
+    padding-top: 65PX;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right: 240px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.banner-description {
+    text-align: center;
+}
+
+.banner-description h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-image {
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* End Banner section */
+
+/* Quick List section */
+.quick-list {
+    padding-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.quick-list-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-list-image img {
+    width: 342px;
+    height: 342px;
+    border-radius: 10px;
+}
+
+.quick-list-detais {
+    padding-left: 75px;
+    padding-top: 200px;
+}
+
+.quick-list-detais h3 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+/* End Quick List section */
+
+/* Features section */
+.features{
+    display: flex;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 150px;
+}
+.main-paragraph{
+    text-align: left;
+}
+.features-deatails h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.features-deatails{
+    width: 514px;
+height: 111px;
+text-align: left;
+
+}
+.features-image{
+/* padding-left: 150px; */
+}
+.left-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 40px;
+}
+
+/* Some Facts section */
+.some-facts-info{
+    padding-left: 140px;
+}
+.services{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+}
+.facts{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #FF900E;
+border-radius: 8px;
+width: 241px;
+height: 241px;
+line-height: 9px;
+padding-top: 45px;
+
+}
+
+/* Sponspor section */
+.sponspors{
+    text-align: center;
+    justify-content: center;
+}
+.sponspors-company{
+    display: flex;
+    justify-content: center;
+    column-gap: 155px;
+    padding-top: 50px;
+}
+.company-name img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+/* Footer section */
+footer{
+   margin: 130px 240px 230px 240px ;
+    height: 100px;
+    justify-content: center;
+    background: #FFF4E7;
+border-radius: 10px;
+}
+footer p{
+    padding: 40px;
+    text-align: center;
+    font-weight: 400;
+font-size: 20px;
+color: #424242;
+}
