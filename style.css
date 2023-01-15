@@ -201,6 +201,12 @@ body {
     line-height: 9px;
     padding-top: 45px;
 }
+.facts:hover{
+    background-color: rgb(234, 162, 162);
+    border: 5px solid #171717;
+    width: 260px;
+    height: 260px;
+    }
 
 /* Sponspor section */
 .sponspors {
@@ -251,7 +257,6 @@ footer p {
     font-size: 20px;
     color: #424242;
 }
-
 /* Responsive Media for Mobile*/
 @media only screen and (max-width:576px) {
     .navigation {
@@ -365,7 +370,7 @@ footer p {
 
     .sponspors-company {
         flex-direction: column;
-        row-gap: 30px;
+        row-gap: 10px;
     }
 
     .team-member {
