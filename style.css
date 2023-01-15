@@ -179,13 +179,10 @@ body {
 }
 
 /* Some Facts section */
-.some-facts-info {
-    padding-left: 740px;
+.some-facts-info{
+    padding-left: 450px;
 }
 
-.some-facts-info h3 {
-    text-align: left;
-}
 
 .services {
     padding-top: 100px;
@@ -307,7 +304,6 @@ footer p {
 
     }
 
-
     .primary-paragraph {
         padding: 20px;
     }
@@ -355,17 +351,9 @@ footer p {
         height: auto;
 
     }
-
-    .some-facts-info p {
+    .some-facts-info p,h1{
         display: none;
     }
-
-    .some-facts-info h3 {
-        padding-right: 150px;
-        text-align: center;
-        font-size: 35px;
-    }
-
     .services {
         padding-top: 50px;
         display: flex;
